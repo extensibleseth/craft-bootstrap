@@ -1,8 +1,8 @@
 {
-    "name": "doublesecretagency/craft-bootstrap",
+    "name": "extensibleseth/craft-bootstrap",
     "description": "Build your site with the Bootstrap front-end framework.",
     "type": "craft-plugin",
-    "version": "4.1.3.1",
+    "version": "5.0.0-beta3",
     "keywords": [
         "craft",
         "cms",
@@ -12,31 +12,31 @@
         "twitter-bootstrap"
     ],
     "support": {
-        "docs": "https://github.com/doublesecretagency/craft-bootstrap/blob/v4/README.md",
-        "issues": "https://github.com/doublesecretagency/craft-bootstrap/issues"
+        "docs": "https://github.com/extensibleseth/craft-bootstrap/blob/v4/README.md",
+        "issues": "https://github.com/extensibleseth/craft-bootstrap/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Double Secret Agency",
-            "homepage": "https://www.doublesecretagency.com/plugins"
+            "name": "@Ponies",
+            "homepage": "https://iamponies.com"
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0",
-        "twbs/bootstrap": "4.1.3",
-        "components/jquery": "^3.3.1"
+        "craftcms/cms": "^3.6.0",
+        "twbs/bootstrap": "v5.0.0-beta3",
+        "components/jquery": "dev-master"
     },
     "autoload": {
         "psr-4": {
-          "doublesecretagency\\bootstrap\\": "src/"
+          "extensibleseth\\bootstrap\\": "src/"
         }
     },
     "extra": {
         "name": "Bootstrap",
         "handle": "bootstrap",
         "schemaVersion": "0.0.0",
-        "changelogUrl": "https://raw.githubusercontent.com/doublesecretagency/craft-bootstrap/v4/CHANGELOG.md",
-        "class": "doublesecretagency\\bootstrap\\Bootstrap"
+        "changelogUrl": "https://raw.githubusercontent.com/extensibleseth/craft-bootstrap/v4/CHANGELOG.md",
+        "class": "extensibleseth\\bootstrap\\Bootstrap"
     }
 }

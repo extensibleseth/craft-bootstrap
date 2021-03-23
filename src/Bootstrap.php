@@ -4,9 +4,9 @@
  *
  * Build your site with the Bootstrap front-end framework.
  *
- * @author    Double Secret Agency
- * @link      https://www.doublesecretagency.com/
- * @copyright Copyright (c) 2018 Double Secret Agency
+ * @author    @Ponies
+ * @link      https://iamponies.com/
+ * @copyright Copyright (c) 2021 @Ponies
  *
  * @author    Bootstrap
  * @link      https://getbootstrap.com/
@@ -15,7 +15,7 @@
  * @license   MIT
  */
 
-namespace doublesecretagency\bootstrap;
+namespace extensibleseth\bootstrap;
 
 use Yii;
 use yii\base\Event;
@@ -25,10 +25,10 @@ use craft\base\Plugin;
 use craft\events\TemplateEvent;
 use craft\web\View;
 
-use doublesecretagency\bootstrap\models\Settings;
-use doublesecretagency\bootstrap\twigextensions\BootstrapTwigExtension;
-use doublesecretagency\bootstrap\web\assets\BootstrapAssets;
-use doublesecretagency\bootstrap\web\assets\jQueryAssets;
+use extensibleseth\bootstrap\models\Settings;
+use extensibleseth\bootstrap\twigextensions\BootstrapTwigExtension;
+use extensibleseth\bootstrap\web\assets\BootstrapAssets;
+use extensibleseth\bootstrap\web\assets\jQueryAssets;
 
 /**
  * Class Bootstrap

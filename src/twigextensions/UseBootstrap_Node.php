@@ -4,9 +4,9 @@
  *
  * Build your site with the Bootstrap front-end framework.
  *
- * @author    Double Secret Agency
- * @link      https://www.doublesecretagency.com/
- * @copyright Copyright (c) 2018 Double Secret Agency
+ * @author    @Ponies
+ * @link      https://iamponies.com/
+ * @copyright Copyright (c) 2021 @Ponies
  *
  * @author    Bootstrap
  * @link      https://getbootstrap.com/
@@ -15,7 +15,7 @@
  * @license   MIT
  */
 
-namespace doublesecretagency\bootstrap\twigextensions;
+namespace extensibleseth\bootstrap\twigextensions;
 
 /**
  * Class UseBootstrap_Node
@@ -35,7 +35,7 @@ class UseBootstrap_Node extends \Twig_Node
     {
         $compiler
             ->addDebugInfo($this)
-            ->write('\doublesecretagency\bootstrap\Bootstrap::$plugin->useBootstrap();')
+            ->write('\extensibleseth\bootstrap\Bootstrap::$plugin->useBootstrap();')
             ->raw("\n");
     }
 

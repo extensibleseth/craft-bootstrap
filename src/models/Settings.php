@@ -4,9 +4,9 @@
  *
  * Build your site with the Bootstrap front-end framework.
  *
- * @author    Double Secret Agency
- * @link      https://www.doublesecretagency.com/
- * @copyright Copyright (c) 2018 Double Secret Agency
+ * @author    @Ponies
+ * @link      https://iamponies.com/
+ * @copyright Copyright (c) 2021 @Ponies
  *
  * @author    Bootstrap
  * @link      https://getbootstrap.com/
@@ -15,7 +15,7 @@
  * @license   MIT
  */
 
-namespace doublesecretagency\bootstrap\models;
+namespace extensibleseth\bootstrap\models;
 
 use craft\base\Model;
 

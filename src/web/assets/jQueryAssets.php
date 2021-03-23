@@ -4,9 +4,9 @@
  *
  * Build your site with the Bootstrap front-end framework.
  *
- * @author    Double Secret Agency
- * @link      https://www.doublesecretagency.com/
- * @copyright Copyright (c) 2018 Double Secret Agency
+ * @author    @Ponies
+ * @link      https://iamponies.com/
+ * @copyright Copyright (c) 2021 @Ponies
  *
  * @author    Bootstrap
  * @link      https://getbootstrap.com/
@@ -15,11 +15,11 @@
  * @license   MIT
  */
 
-namespace doublesecretagency\bootstrap\web\assets;
+namespace extensibleseth\bootstrap\web\assets;
 
 use Craft;
 use craft\web\AssetBundle;
-use doublesecretagency\bootstrap\Bootstrap;
+use extensibleseth\bootstrap\Bootstrap;
 
 /**
  * Class jQueryAssets
